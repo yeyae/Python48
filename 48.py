@@ -12,3 +12,6 @@ class Calculator:
 
 cal1 = Calculator()
 cal2 = Calculator()
+
+#사칙연산 클래스 만들기
+#클래스를 어떻게 만들까?
