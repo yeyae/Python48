@@ -31,3 +31,7 @@ a.setdata(4,2)
 #a.setdata(4,2)처럼 호출하면 setdata 메서드의 첫 번째 매개변수 self에서 setdata 메서드를 호출한 객체 a가 자동으로 전달
 print(a.first)
 print(a.second)
+
+a = FourCal()
+b = FourCal()
+
