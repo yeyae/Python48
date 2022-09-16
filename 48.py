@@ -35,3 +35,8 @@ print(a.second)
 a = FourCal()
 b = FourCal()
 
+a.setdata(4,2)
+print(a.first)
+b.setdata(3, 7)
+print(b.first)
+
