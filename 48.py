@@ -40,3 +40,14 @@ print(a.first)
 b.setdata(3, 7)
 print(b.first)
 
+#클래스로 만든 객체의 객체변수는 다른 객체의 객체변수에 상관없이 독립적인 값을 유지
+#id 함수를 사용하면 객체변수가 독립적인 값을 유지하다는 점에서 명확하게 증명 가능
+
+a = FourCal()
+b = FourCal()
+a.setdata(4, 2)
+b.setdata(3, 7)
+id(a.first)
+id(b.first)
+#객체변수는 그 객체의 고유값을 저장할 수 있는 공간
+
